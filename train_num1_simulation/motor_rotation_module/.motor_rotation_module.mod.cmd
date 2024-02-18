@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/motor_rotation_module/motor_rotation_module.mod := printf '%s\n'   motor_rotation_module.o | awk '!x[$$0]++ { print("/home/pi/Desktop/motor_rotation_module/"$$0) }' > /home/pi/Desktop/motor_rotation_module/motor_rotation_module.mod
